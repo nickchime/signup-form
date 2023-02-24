@@ -1,0 +1,198 @@
+@font-face {
+    font-family:'Norse-Bold';
+    src: url('Norse-Bold.otf');
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.left {
+    height: 100vh;
+    width: 40vw;
+    min-width: 250px;
+    background-image: url('jungle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    width: 60vw;
+    min-width: 250px;
+    
+}
+
+.logo {
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 15vh;
+    height: 20vh;
+    align-items: center;
+}
+
+.leftLogo {
+    background-image: url('odin-logo.png');
+    height: 15vh;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 10%;
+   
+}
+
+.rightLogo {
+font-size: 10vh;
+text-align: start;
+width: 50%;
+color: antiquewhite;
+font-family:'Norse-Bold';
+
+}
+
+.top {
+    background-color: lightgray;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    
+}
+
+.introText {
+    font-weight: bold;
+    /*padding-top: 10vh;*/
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.signupHeader {
+    font-weight: bold;
+    font-size: 3vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+}
+
+.middle {
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-block: solid 1px darkgray;
+}
+
+.bottom {
+    background-color: lightgray;
+    height: 30vh;
+}
+
+
+
+.names>form {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    flex-wrap: wrap;
+}
+
+.contact>form {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    flex-wrap: wrap;
+    
+}
+
+.passwords>form {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    flex-wrap: wrap;
+}
+
+.topText {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    flex-wrap: wrap;
+}
+
+
+.letsText {
+    font-weight: bold;
+    font-size: 2.3vh;
+    
+
+}
+
+.bottom {
+    padding-left: 5vw;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.submit {
+padding-top: 5vh;
+}
+
+
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+
+.button-37 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}

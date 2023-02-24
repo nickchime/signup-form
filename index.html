@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Signup</title>
+</head>
+<body>
+    <div class="left">
+        <!--<img src="/jungle.jpg"> -->
+        <div class="logo">
+            <div class="leftLogo"></div>
+            <div class="rightLogo">ODIN</div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="top">
+            <div class="introText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+            <div class="signupHeader">Its time to sign up!</div>
+        </div>
+        <div class="middle">
+            <div class="topText">
+                <div class="letsText">Let's Do this!</div>
+                <div class="space"></div>
+            </div>
+            
+            <div class="names">
+                <form action="" method="post">
+                    <div class="firstName">
+                        <label for="firstName">First Name</label><br>
+                        <input type="text"  id="firstName" placeholder="John..." name="firstName" required>
+                    </div>
+                    <div class="lastName">
+                        <label for="lastName">Last Name</label><br>
+                        <input type="text"  id="lastName" placeholder="Doe..." name="lastName" required>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact">
+                <form action="" method="post">
+                    <div class="email">
+                        <label for="email">Email</label><br>
+                        <input type="email"  id="email" placeholder="you@example.com" name="email" required>
+                    </div>        
+                    <div class="phone">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                </form>
+            </div>
+
+            <div class="passwords">
+                <form>
+                    <div class="password">
+                        <label>Password</label><br>
+                        <input name="password" id="password" type="password" required>
+                    </div>
+                    <div class="confirm">
+                        <label>Confirm Password</label><br>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                        <span id='message'></span>
+                    </div>                      
+                </form>
+            </div>
+              
+        </div>    
+        <div class="bottom">
+            <form>
+                <div class="submit">
+                    <button class="button-37" role="button" type="submit">Create Account</button>
+                </div>
+            </form>
+            <div class="alreadyUser">Already a user? Login</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<div class="middle"></div>
